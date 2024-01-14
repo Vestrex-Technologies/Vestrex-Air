@@ -1,0 +1,223 @@
+.heading {
+  flex: 1;
+  padding: 5px;
+  background-color: rgb(230, 225, 218);
+  box-sizing: border-box;
+}
+
+.about {
+  margin-left: 60px;
+}
+.head {
+  margin-left: 60px;
+}
+
+/*NAVIGATION BAR*/
+.navbar {
+  background-color: blue;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 2em;
+  color: orange;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  font-size: 1em;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 2em;
+  color: orange;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  color: orange;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar ::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: orange;
+  transition: 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.logo :hover {
+  color: orange;
+}
+
+/*ADDRESS BOXES*/
+.address-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.address-box1 {
+  flex: 1;
+  padding: 20px;
+  background-color: #45a049;
+  box-sizing: border-box;
+}
+
+.address-box2 {
+  flex: 1;
+  padding: 40px;
+  background-color: #c9831b;
+  box-sizing: border-box;
+}
+.address-box3 {
+  flex: 1;
+  padding: 40px;
+  background-color: #1c2dbd;
+  box-sizing: border-box;
+}
+
+.address-box4 {
+  flex: 1;
+  padding: 40px;
+  background-color: #e0d31891;
+  box-sizing: border-box;
+}
+
+.address-box5 {
+  flex: 1;
+  padding: 40px;
+  background-color: #d86fdb;
+  box-sizing: border-box;
+}
+
+.address-box6 {
+  flex: 1;
+  padding: 40px;
+  background-color: #83d31c;
+  box-sizing: border-box;
+}
+
+.address-box7 {
+  flex: 1;
+  padding: 40px;
+  background-color: #50dba1;
+  box-sizing: border-box;
+}
+
+.address-box8 {
+  flex: 1;
+  padding: 40px;
+  background-color: #3e3666;
+  box-sizing: border-box;
+}
+
+.address-box h2 {
+  margin-bottom: 10px;
+}
+
+.address-box p {
+  margin: 0;
+}
+
+.note {
+  box-sizing: border-box;
+  margin-left: 60px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*FOOTER*/
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quick-links,
+.contact-info,
+.social-media {
+  flex: 1;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contact-form form {
+  text-align: left;
+}
+
+textarea {
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: rgb(167, 125, 47);
+  width: 60%;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
